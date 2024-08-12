@@ -1,0 +1,1 @@
+export const NavbarItemData=[{icon:"./assets/contact_support.svg",path:"/",label:"Support Request"},{icon:"./assets/product-tour.svg",path:"/",label:"Product Tour"}];

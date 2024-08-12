@@ -2,6 +2,7 @@
 
 import './App.css'
 import { LeftMenuBar } from './component/LeftMenuBar'
+import { Navbar } from './component/Navbar'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -13,7 +14,9 @@ function App() {
         
         </div>
         <div className='bg-red-700  w-[80%] flex flex-col gap-5'>
-         <div className='p-8 bg-white'>Navbar</div>
+         <div>
+          <Navbar/>
+         </div>
          <div className='flex flex-col gap-5'>
           <h1>Title</h1>
           <div className='flex gap-5'>

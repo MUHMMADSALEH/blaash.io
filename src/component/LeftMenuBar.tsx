@@ -12,8 +12,8 @@ export const LeftMenuBar = () => {
             className="bg-[#27272F] w-[6rem]  text-white"
           />
         </div>
-        <div className="w-full ">
-          <img src="./assets/Slider_icon.svg" alt="Slider-icon" className="absolute top-9 -right-3 "/>
+        <div className="w-full     ">
+          <img src="./assets/Slider_icon.svg" alt="Slider-icon" className="absolute top-9 -right-3 bg-[#27272F] rounded-full p-1 "/>
         </div>
       </div>
       {MenuList.map((item) => (
